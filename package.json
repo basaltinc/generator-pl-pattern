@@ -1,0 +1,42 @@
+{
+  "name": "generator-pl-pattern",
+  "version": "0.0.0",
+  "description": "Pattern Lab pattern Yeoman Generator",
+  "homepage": "",
+  "author": {
+    "name": "Evan Lovely",
+    "email": "evanlovely@gmail.com",
+    "url": "http://evanlovely.com"
+  },
+  "scripts": {
+    "test": "eslint . --fix"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/app/index.js",
+  "keywords": [
+    "pattern-lab",
+    "yeoman-generator"
+  ],
+  "devDependencies": {
+    "eslint": "^4.1.0",
+    "eslint-config-xo-space": "^0.16.0"
+  },
+  "dependencies": {
+    "yeoman-generator": "0.23.3",
+    "chalk": "^1.1.3",
+    "yosay": "^2.0.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "node": true
+    },
+    "rules": {
+      "capatilized-comments": 0
+    }
+  },
+  "repository": "git@github.com:basaltinc/generator-pl-pattern.git",
+  "license": "MIT"
+}
