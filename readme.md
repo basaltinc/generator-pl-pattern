@@ -1,5 +1,7 @@
 # Pattern Lab pattern Yeoman Generator
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/basaltinc/generator-pl-pattern.svg)](https://greenkeeper.io/)
+
 Running this asks a few questions about your Front End component that uses BEM naming scheme and used in Pattern Lab, then generates the front end files needed: scss, twig, etc.
 
 ## Installation
